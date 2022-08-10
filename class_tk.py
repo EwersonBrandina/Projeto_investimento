@@ -43,7 +43,7 @@ fr5 = Frame()
 
 #CONSTRUÇÃO EWERSON
 def logando():
-    mysqldb = mysql.connector.connect(host='localhost',user='root',password='92337155Thule03@1',database='investimentos')
+    mysqldb = mysql.connector.connect(host='localhost',user='root',password='q1w2e3',database='investimentos')
     mycursor = mysqldb.cursor()
     user = fr0_in2.get()
     passw = fr0_in3.get()
