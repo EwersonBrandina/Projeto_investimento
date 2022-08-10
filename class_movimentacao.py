@@ -7,4 +7,4 @@ class Movimentacao:
         self.nome_atk = nome_atk
         self.montante = montante
         self.juros = juros
-        self.capital = capital
+        self.capital = capital 
