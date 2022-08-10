@@ -4,7 +4,7 @@ from class_usuario import*
 class Cadastro:
 
     def __init__(self):
-        self.conexao = mysql.connector.connect(host='localhost', user='root', password='92337155Thule03@1', database='investimentos')
+        self.conexao = mysql.connector.connect(host='localhost', user='root', password='q1w2e3', database='investimentos')
         self.mycursor = self.conexao.cursor() 
 
     def cadastro(self,cpf_cnpj, nome, dataNasc, telefone, senha):
